@@ -1,0 +1,13 @@
+var number1 = '10';
+number1 = parseFloat(number1);
+console.log(number1);
+var number2 = '90.0';
+number2 = +number2;
+console.log(number2);
+number3 = 18;
+number3 = ''+number3;
+console.log(number3);
+number3 = parseInt(number3);
+var total = number1 + number2 + number3;
+total = total.toFixed(3);
+console.log(total);

@@ -1,0 +1,13 @@
+var number1 = -1.91;
+console.log(number1);
+var number2 = Math.abs(number1);
+console.log(number2);
+var number3 = Math.round(number1);
+console.log(number3);
+var number4 = Math.ceil(number1);
+console.log(number4);
+var number5 = Math.floor(number1);
+console.log(number5);
+var number6 = Math.random()*100;
+var number7 = Math.round(number6);
+console.log(number7);
